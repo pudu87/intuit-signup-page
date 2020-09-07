@@ -1,0 +1,40 @@
+/*NAV*/
+
+nav {
+  width: 100%;
+  text-align: right;
+  background-color: rgb(253, 253, 218);
+}
+
+/*HEADER*/
+
+header {
+  text-align: center;
+  background-color: rgb(224, 250, 228);
+}
+
+/*SIGN UP*/
+
+.sign-up-form {
+  width: 380px;
+  margin: auto;
+  border: 1px solid grey;
+  background-color: rgb(224, 224, 250);
+}
+
+/*FOOTER*/
+
+footer {
+  width: 820px;
+  margin: auto;
+  background-color: rgb(255, 217, 217);
+}
+
+/*PRIVACY SETTINGS*/
+
+#privacy-settings {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  background-color: grey;
+}
