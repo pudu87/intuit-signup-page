@@ -71,23 +71,85 @@ header li img {
   vertical-align: bottom;
 }
 
-/*
-<header>
-  <img src="assets/images/intuit-logo.png" alt="intuit-logo">
-  <ul>
-    <li><a><img src="assets/images/logo1.png" alt="some logo">mint</a></li>
-    <li><a><img src="assets/images/logo2.png" alt="some logo">quickbooks</a></li>
-    <li><a><img src="assets/images/logo3.png" alt="some logo">turbotax</a></li>
-  </ul>
-</header>
-
 /*SIGN UP*/
 
-.sign-up-form {
-  width: 380px;
+section {
+  width: 320px;
   margin: auto;
+  padding: 30px;
+  padding-bottom: 0;
   border: 1px solid grey;
+  border-radius: 2px;
   background-color: rgb(224, 224, 250);
+  text-align: center;
+}
+
+section h1 {
+  font-size: 24px;
+}
+
+#learn-more {
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+#learn-more a {
+  font-size: 12px;
+}
+
+form label {
+  display: block;
+  width: 100%; 
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+form input {
+  margin: 8px 0;
+  height: 34px;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+form input, form button {
+  width: 100%;
+}
+
+form p {
+  font-size: 10px;
+}
+
+form button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #0077C5;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  font-size: 16px;
+  color: white;
+}
+
+#terms {
+  margin: 40px;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.4;
+  color: #707070;
+}
+
+#recaptcha {
+  width: 100%;
+  position: relative;
+  right: 30px;
+  padding: 20px 30px;
+  background-color: #ECEEF1;
+  border-radius: 0 0 3px 3px;
+  color: #707070;
+  font-size: 10px;
 }
 
 /*FOOTER*/
