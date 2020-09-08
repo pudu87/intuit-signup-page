@@ -157,8 +157,40 @@ form button {
 footer {
   width: 820px;
   margin: auto;
+  padding: 30px;
   background-color: rgb(255, 217, 217);
+  text-align: center;
+  font-size: 12px;
+  font-family: Avenir, Helvetica, Arial;
+  line-height: 1.4;
 }
+
+footer li {
+  display: inline;
+  margin: 0 5px;
+}
+
+footer p {
+  color: #505050;
+}
+
+/*
+<footer>
+  <ul>
+    <li><a href="link.html">Legal</a></li>
+    <li><a href="link.html">Privacy</a></li>
+    <li><a href="link.html">Security</a></li>
+  </ul>
+
+  <p>
+    © 2020 Intuit, Inc. All rights reserved. 
+    Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint 
+    are registered trademarks of Intuit Inc.
+    <br>
+    Terms and conditions, features, support, pricing, 
+    and service options subject to change without notice.
+  </p>
+</footer>
 
 /*PRIVACY SETTINGS*/
 
